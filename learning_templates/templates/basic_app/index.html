@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+{% extends "basic_app/base.html" %}
+{% load my_extras %}
+
+  {% block body_block %}
+
+    <h1>WELCOME TO INDEX!</h1>
+    <h2>Esta é a página index.html, fantástico né.</h2>
+    <h1>{{text|cuter:'world'}}</h1>
+    <h1>{{number}}</h1>
+  {% endblock %}
